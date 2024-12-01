@@ -1,0 +1,4 @@
+*.input
+*.log
+__pycache__
+*.sw?

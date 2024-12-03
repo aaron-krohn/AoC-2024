@@ -81,7 +81,7 @@ class LocationDistances:
 
 def parse_args():
 
-    parser = argparse.ArgumentParser(description='2023 Advent of Code, Day 22', epilog='https://adventofcode.com')
+    parser = argparse.ArgumentParser(description='2024 Advent of Code, Day 1', epilog='https://adventofcode.com/2024')
     parser.add_argument('-d', '--debug', dest='debug', action='store_true', default=False, help='Show debug output')
     parser.add_argument('-t', '--test', dest='test', action='store_true', default=False, help='Use test input file')
     parser.add_argument('-p1', '--part-1', dest='p1', action='store_true', default=False, help='Only run part 1')

@@ -18,7 +18,7 @@ Save log to a file with `-l` or `--log` e.g. `--log ten.log`
 $ python3.11 ten.py --help
 usage: ten.py [-h] [-d] [-t] [-p1] [-p2] [-l LOGFILE]
 
-2023 Advent of Code, Day 10
+2024 Advent of Code, Day 1
 
 options:
   -h, --help            show this help message and exit
@@ -35,9 +35,11 @@ https://adventofcode.com/2024
 ## Scores
 
 ```
-      --------Part 1---------   --------Part 2---------
-Day       Time    Rank  Score       Time    Rank  Score
-  1   00:50:19    9562      0   01:00:33    9311      0
+      --------Part 1---------   -------Part 2--------
+Day       Time    Rank  Score       Time  Rank  Score
+  3   00:19:46    8082      0   00:39:04  7664      0
+  2   20:23:22  110374      0          -     -      -
+  1   00:50:19    9562      0   01:00:33  9311      0
 ```
 
 ### Day 1
@@ -47,3 +49,26 @@ $ python3 one.py
 2024-12-01 02:09:08,270 [INFO] [Part 2] Solution: XXXXXXXX in 0.0012 seconds
 ```
 
+### Day 2
+```
+2024-12-02 21:07:26,887 [INFO] [Part 1] Solution: XXX in 0.0047 seconds
+```
+
+### Day 3
+```
+$ python3.11 three.py
+2024-12-03 00:39:35,661 [INFO] [Part 1] Solution: XXXXXXXXX in 0.0009 seconds
+2024-12-03 00:39:35,664 [INFO] [Part 2] Solution: XXXXXXXXX in 0.0035 seconds
+```
+
+## Problem Notes
+
+### Day 2.2
+
+I can't seem to get the correct answer here, although I'm very close, but I'm missing a way to narrow down the outputs to find a false negative.
+
+After looking through the solutions on Reddit, I'm embarassed at how easily these guys are solving this problem.
+
+Apparently `set()` is a great solution but I have no idea how to use it. Also a lot of folks are using a sliding window of 3, which I am not.
+
+I think we're just going to admit defeat on this one and maybe come back to it another time.

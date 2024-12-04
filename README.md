@@ -35,11 +35,12 @@ https://adventofcode.com/2024
 ## Scores
 
 ```
-      --------Part 1---------   -------Part 2--------
-Day       Time    Rank  Score       Time  Rank  Score
-  3   00:19:46    8082      0   00:39:04  7664      0
-  2   20:23:22  110374      0          -     -      -
-  1   00:50:19    9562      0   01:00:33  9311      0
+      --------Part 1---------   --------Part 2--------
+Day       Time    Rank  Score       Time   Rank  Score
+  4   00:53:18    9746      0   02:24:26  14821      0
+  3   00:19:46    8082      0   00:39:04   7664      0
+  2   20:23:22  110374      0          -      -      -
+  1   00:50:19    9562      0   01:00:33   9311      0
 ```
 
 ### Day 1
@@ -61,6 +62,13 @@ $ python3.11 three.py
 2024-12-03 00:39:35,664 [INFO] [Part 2] Solution: XXXXXXXXX in 0.0035 seconds
 ```
 
+### Day 4
+```
+$ python3.11 four.py
+2024-12-04 02:29:03,920 [INFO] [Part 1] Solution: XXXX in 0.2194 seconds
+2024-12-04 02:29:04,079 [INFO] [Part 2] Solution: XXXX in 0.1588 seconds
+```
+
 ## Problem Notes
 
 ### Day 2.2
@@ -72,3 +80,7 @@ After looking through the solutions on Reddit, I'm embarassed at how easily thes
 Apparently `set()` is a great solution but I have no idea how to use it. Also a lot of folks are using a sliding window of 3, which I am not.
 
 I think we're just going to admit defeat on this one and maybe come back to it another time.
+
+### Day 4.2
+
+This code is indecipherable. The code is as literal as possible, uses nothing but lists and crazy lookup tables. I'm sorry, it's just how my brain works.

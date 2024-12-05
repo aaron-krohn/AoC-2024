@@ -69,6 +69,13 @@ $ python3.11 four.py
 2024-12-04 02:29:04,079 [INFO] [Part 2] Solution: XXXX in 0.1588 seconds
 ```
 
+### Day 5
+```
+$ python3.11 five.py
+2024-12-05 00:44:29,909 [INFO] [Part 1] Solution: XXXX in 0.0377 seconds
+2024-12-05 00:44:30,174 [INFO] [Part 2] Solution: XXXX in 0.2649 seconds
+```
+
 ## Problem Notes
 
 ### Day 2.2
